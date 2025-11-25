@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+const { useState } = React;
 
 function CRBLandingPage() {
   const [loading, setLoading] = useState(false);
@@ -35,7 +35,7 @@ function CRBLandingPage() {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-[#0f3d2e] px-3 py-1 text-[11px] uppercase tracking-[0.2em] mb-4">
               <span className="h-1.5 w-1.5 rounded-full bg-[#D4AF37]" />
-              1 on 1 Private Call With Chuck
+              1:1 Private Call With Chuck
             </div>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight mb-4">
@@ -67,7 +67,7 @@ function CRBLandingPage() {
 
             <div className="rounded-2xl border border-[#0f3d2e] bg-white p-5 max-w-md">
               <div className="mb-2">
-                <p className="text-xs uppercase tracking-[0.25em]">1 on 1 Strategy Call – $100 Commitment Credit</p>
+                <p className="text-xs uppercase tracking-[0.25em]">1:1 Strategy Call – $100 Commitment Credit</p>
               </div>
               <p className="text-[12px] mb-4">
                 Your $100 isn’t an extra fee—it applies to your package. Example: If you choose a $375 package, you pay $275 after this call.
