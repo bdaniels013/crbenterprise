@@ -82,7 +82,7 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="rounded-xl border border-crbGreen/20 bg-white p-4">
                 <div className="flex items-center gap-2 mb-2"><span className="h-6 w-6 rounded-full bg-crbGold text-crbGreen flex items-center justify-center text-xs font-semibold">1</span><span className="text-sm font-semibold">Pay your $100 commitment credit</span></div>
-                <p className="text-[12px]">Secure your spot with a refundable-to-package payment.</p>
+                <p className="text-[12px]">Secure your spot—your $100 commitment credit is applied to whichever package you choose.</p>
               </div>
               <div className="rounded-xl border border-crbGreen/20 bg-white p-4">
                 <div className="flex items-center gap-2 mb-2"><span className="h-6 w-6 rounded-full bg-crbGold text-crbGreen flex items-center justify-center text-xs font-semibold">2</span><span className="text-sm font-semibold">Get instant access to Chuck’s calendar</span></div>
