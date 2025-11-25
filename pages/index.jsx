@@ -61,9 +61,8 @@ export default function Home() {
 
             <div className="relative">
               <div className="rounded-[2rem] border border-crbGreen/15 bg-white p-4 md:p-5 shadow-xl">
-                <div className="grid grid-cols-2 gap-3">
-                  <img src="/chuck-standing.jpg" alt="Chuck standing" className="w-full h-64 md:h-80 object-cover rounded-2xl" />
-                  <img src="/chuck-sitting.jpg" alt="Chuck sitting" className="w-full h-64 md:h-80 object-cover rounded-2xl" />
+                <div className="grid grid-cols-1 gap-3">
+                  <img src="/chuck-sitting.jpg" alt="Chuck" className="w-full h-64 md:h-80 object-cover rounded-2xl" />
                 </div>
                 <div className="flex items-center justify-between gap-3 mt-4">
                   <div>
