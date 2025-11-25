@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         {
           price_data: {
             currency: "usd",
-            product_data: { name: "1:1 Strategy Call – $100 Commitment Credit" },
+            product_data: { name: "1 on 1 Strategy Call – $100 Commitment Credit" },
             unit_amount: 10000
           },
           quantity: 1

@@ -16,6 +16,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <div className="absolute inset-0 bg-gradient-to-br from-[#FBF6EE] via-[#F5EFE3] to-[#EFE7DA]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(15,61,46,0.12),transparent_60%)]" />
       <div className="relative">
         <header className="container-wide mx-auto px-6 py-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -32,7 +33,7 @@ export default function Home() {
             <div>
               <div className="inline-flex items-center gap-2 rounded-full border border-crbGreen/25 px-3 py-1 text-[11px] uppercase tracking-[0.2em] mb-4 bg-white/60 backdrop-blur">
                 <span className="h-1.5 w-1.5 rounded-full bg-crbGold" />
-                1:1 Private Call With Chuck
+                1 on 1 Private Call With Chuck
               </div>
 
               <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[1.05] font-medium mb-6 text-crbGreen">
@@ -50,19 +51,19 @@ export default function Home() {
                 <li className="flex items-start gap-2"><span className="mt-1 h-1.5 w-1.5 rounded-full bg-crbGold" />Credit applies to your package</li>
               </ul>
 
-              <div className="rounded-2xl border border-crbGreen/20 bg-white p-6 max-w-md shadow-xl shadow-crbGold/10">
-                <p className="text-xs uppercase tracking-[0.25em] mb-2">1:1 Strategy Call – $100 Commitment Credit</p>
+              <div className="rounded-2xl border border-crbGreen/20 bg-white p-6 max-w-md shadow-xl shadow-crbGold/20">
+                <p className="text-xs uppercase tracking-[0.25em] mb-2">1 on 1 Strategy Call – $100 Commitment Credit</p>
                 <p className="text-[12px] mb-5">Your $100 isn’t an extra fee—it applies to your package. Example: If you choose a $375 package, you pay $275 after this call.</p>
-                <button onClick={startCheckout} disabled={loading} className="w-full rounded-full bg-crbGold text-crbGreen text-xs font-semibold py-3 hover:brightness-110 active:brightness-95 transition">
+                <button onClick={startCheckout} disabled={loading} className="w-full rounded-full bg-gradient-to-b from-crbGold to-[#e2bd5b] text-crbGreen text-base md:text-lg font-semibold py-4 md:py-5 shadow-[0_0_30px_rgba(212,175,55,0.35)] ring-2 ring-crbGreen/20 hover:brightness-110 active:brightness-95 transition">
                   {loading ? "Processing…" : "Pay $100 & Schedule Your Call"}
                 </button>
               </div>
             </div>
 
             <div className="relative">
-              <div className="rounded-[2rem] border border-crbGreen/15 bg-white p-4 md:p-5 shadow-xl">
+              <div className="rounded-[2rem] border border-crbGreen/20 bg-white p-4 md:p-5 shadow-xl">
                 <div className="grid grid-cols-1 gap-3">
-                  <img src="/chuck-sitting.jpg" alt="Chuck" className="w-full h-64 md:h-80 object-cover rounded-2xl" />
+                  <img src="/chuck-sitting.jpg" alt="Chuck" className="w-full h-80 md:h-[28rem] object-cover rounded-2xl ring-4 ring-crbGreen/15 shadow-2xl shadow-crbGreen/20" />
                 </div>
                 <div className="flex items-center justify-between gap-3 mt-4">
                   <div>

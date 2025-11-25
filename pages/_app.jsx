@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
-        <title>CRB Enterprise — 1:1 Strategy Call</title>
+        <title>CRB Enterprise — 1 on 1 Strategy Call</title>
       </Head>
       <Component {...pageProps} />
     </>
