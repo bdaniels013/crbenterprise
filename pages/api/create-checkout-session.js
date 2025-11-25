@@ -16,14 +16,14 @@ export default async function handler(req, res) {
           price_data: {
             currency: "usd",
             product_data: { name: "1:1 Strategy Call – $100 Commitment Credit" },
-            unit_amount: 10000,
+            unit_amount: 10000
           },
-          quantity: 1,
-        },
+          quantity: 1
+        }
       ],
-      success_url: `${origin}/schedule.html`,
+      success_url: `${origin}/schedule`,
       cancel_url: `${origin}/`,
-      metadata: { type: "strategy_call" },
+      metadata: { type: "strategy_call" }
     });
     res.status(200).json({ url: session.url });
   } catch (err) {
