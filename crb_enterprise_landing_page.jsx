@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function CRBLandingPage() {
+function CRBLandingPage() {
   const [loading, setLoading] = useState(false);
 
   async function startCheckout() {
@@ -175,3 +175,4 @@ export default function CRBLandingPage() {
     </div>
   );
 }
+window.CRBLandingPage = CRBLandingPage;
